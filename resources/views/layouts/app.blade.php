@@ -41,6 +41,9 @@
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
                     Task List
+                    <span class="text-danger">
+                        @<strong>{{ gethostname() }}</strong>
+                    </span>
                 </a>
             </div>
 
